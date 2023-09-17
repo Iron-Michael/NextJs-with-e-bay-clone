@@ -7,7 +7,6 @@ import { useCart } from "../context/cart";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import useIsLoading from "../hooks/useisLoading";
-import ClientOnly from "../components/Clientonly";
 
 export default function Cart() {
   const router = useRouter();
